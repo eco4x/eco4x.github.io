@@ -42,6 +42,9 @@
 
         footer { text-align: center; padding: 60px 0; border-top: 1px solid var(--border); margin-top: 80px; opacity: 0.5; font-size: 0.85rem; }
         .footer-links a { color: var(--accent); text-decoration: none; margin: 0 10px; }
+        
+        /* Link styling for projects */
+        .project-link { text-decoration: none; color: inherit; display: block; }
     </style>
 </head>
 <body>
@@ -69,7 +72,7 @@
     <div class="grid">
         <div class="card">
             <img src="cert1.jpeg" alt="CRPO" class="cert-img">
-            <span class="cert-title">Certified Ransomeware Protection Officer</span>
+            <span class="cert-title">Certified Ransomware Protection Officer</span>
             <span class="cert-vendor">EU ACADEMY</span>
         </div>
         <div class="card">
@@ -95,6 +98,19 @@
 
     <h2>Recent Projects & Lab Work</h2>
     <div class="grid">
+        <div class="card">
+            <a href="https://github.com/eco4x/ECOSHIELD-AGENT" target="_blank" class="project-link">
+                <img src="ECOSHIELD-logo.jpg" alt="ECOSHIELD Logo" class="cert-img">
+                <span class="cert-title">ECOSHIELD: Automated SOAR Engine</span>
+                <span class="cert-vendor">A Python-based defense suite that automates incident response. Features a dynamic "Trap" simulator and "Sentinel" monitoring for real-time protection.</span>
+                <div class="skills-tag-container">
+                    <span class="skill-tag">SOAR</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Defensive Security</span>
+                </div>
+            </a>
+        </div>
+
         <div class="card">
             <img src="project1.jpg" class="cert-img">
             <span class="cert-title">Python Automation Scripts</span>
